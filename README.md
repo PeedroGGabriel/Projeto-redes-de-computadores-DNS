@@ -56,3 +56,5 @@ Página 7 - Protocolos:
     O DNS usa TCP para transferência de zona e UDP para nome e consulta normal (principal) ou reversa. O UDP pode ser usado para trocar informações pequenas, enquanto o TCP deve ser usado para trocar informações maiores que 512 bytes. Se um cliente não obtiver uma resposta do DNS, ele deverá retransmitir os dados por TCP após um intervalo de 3 a 5 segundos.
 
 Página 8 - Implementação 
+
+Simular uma pequena rede local e como funciona o servidor DNS nesta rede local.
