@@ -54,3 +54,5 @@ Página 7 - Protocolos:
     O DNS e alguns outros serviços funcionam em ambos os protocolos. Vamos dar um exemplo do serviço DNS. Dois protocolos são diferentes um do outro. O TCP é um protocolo orientado a conexão e requer que os dados sejam consistentes no destino e o UDP é um protocolo sem conexão e não requer que os dados sejam consistentes ou não precise estabelecer uma conexão com o host para consistência de dados. 
     Os pacotes UDP têm um tamanho menor. Os pacotes UDP não podem ter mais de 512 bytes. Portanto, qualquer aplicativo que precise que os dados sejam transferidos acima de 512 bytes requer TCP. Por exemplo, o DNS usa TCP e UDP por motivos válidos descritos abaixo. As mensagens UDP não são maiores que 512 bytes e são truncadas quando maiores que esse tamanho. 
     O DNS usa TCP para transferência de zona e UDP para nome e consulta normal (principal) ou reversa. O UDP pode ser usado para trocar informações pequenas, enquanto o TCP deve ser usado para trocar informações maiores que 512 bytes. Se um cliente não obtiver uma resposta do DNS, ele deverá retransmitir os dados por TCP após um intervalo de 3 a 5 segundos.
+
+Página 8 - Implementação 
